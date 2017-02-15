@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My ROR-COURSE HOMEPAGE</title>
+</head>
+<body>
+
+<style type="text/css">
+	h1.welcome {color:blue; text-align:center}
+	p.mainimg {text-align:center}
+	p.upper_links {text-align:center}
+	table {color:green; align:center;}
+	th {width:300px; text-align:justify;}
+</style>
+<h1 class="welcome">Hey, don't fall asleep</h1>
+
+<p class="mainimg">
+<%= image_tag("rails-homepage.jpg", width:"689", align:"center") %>
+</p>
+
+<table align=center>
+<tr>
+	<th>
+	<a href="http://nolasocks.co.il"><p class="upper_links">My pub<a>
+	</th>
+	<th>
+	<%= link_to 'About', about_path %>
+	</th>
+</tr>
+</table>
+
+</body>
+</html>
